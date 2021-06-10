@@ -11,6 +11,6 @@ def turn_count(board)
 end
 
 def current_player(board)
-  turn_count(board)
-  counter%2 == 0 ? "X" : "O"
+  count = turn_count(board)
+  count%2 == 0 ? "X" : "O"
 end
